@@ -24,8 +24,8 @@ static void customBoardDefaultConfiguration() {
 	engineConfiguration->injectionPins[3] = Gpio::E3;
 	engineConfiguration->injectionPins[4] = Gpio::D9;
 	engineConfiguration->injectionPins[5] = Gpio::B14;
-	engineConfiguration->injectionPins[6] = Gpio::C13;
-	engineConfiguration->injectionPins[7] = Gpio::E14;
+	engineConfiguration->injectionPins[6] = Gpio::E14;
+	engineConfiguration->injectionPins[7] = Gpio::C13;
 	
     engineConfiguration->ignitionPins[0] = Gpio::B13;
 	engineConfiguration->ignitionPins[1] = Gpio::E9;
@@ -57,7 +57,7 @@ static void customBoardDefaultConfiguration() {
 	engineConfiguration->camInputs[0] = Gpio::A5;
 
     engineConfiguration->analogInputDividerCoefficient = 1.56f;
-	engineConfiguration->adcVcc = 3.3f;
+	engineConfiguration->adcVcc = 3.2f;
 
 	engineConfiguration->clt.config.bias_resistor = 2490;
 	engineConfiguration->iat.config.bias_resistor = 2490;
