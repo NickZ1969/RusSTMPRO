@@ -4,6 +4,26 @@
 #pragma once
 
 Gpio GENERATED_OUTPUTS[] = {
-	Gpio::B14, // B14 Output
-// "B14 Output",
+	Gpio::E6, // E6 Injector 1
+	Gpio::E5, // E5 Injector 2
+	Gpio::B9, // B9 Injector 3
+	Gpio::E3, // E3 Injector 4
+	Gpio::D9, // D9 Injector 5
+	Gpio::B14, // B14 Injector 6
+	Gpio::E14, // E14 Injector 7
+	Gpio::C13, // C13 Injector 8
+	Gpio::E7, // E7 Fan 1
+	Gpio::E8, // E8 Fuel Pump
+	Gpio::E10, // E10 Tach Output
+// "E6 Injector 1",
+// "E5 Injector 2",
+// "B9 Injector 3",
+// "E3 Injector 4",
+// "D9 Injector 5",
+// "B14 Injector 6",
+// "E14 Injector 7",
+// "C13 Injector 8",
+// "E7 Fan 1",
+// "E8 Fuel Pump",
+// "E10 Tach Output",
 }
