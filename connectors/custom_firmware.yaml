@@ -1,5 +1,4 @@
 pins:
-
   - id: E6
     class: outputs
     ts_name: E6 Injector 1
