@@ -113,10 +113,6 @@ pins:
     class: [switch_inputs, event_inputs]
     ts_name:  (E2)
 
-  - id: [E3, E3]
-    class: [switch_inputs, event_inputs]
-    ts_name:  (E3)
-
   - id: [E4, E4]
     class: [switch_inputs, event_inputs]
     ts_name:  (E4)
