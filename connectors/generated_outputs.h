@@ -15,6 +15,23 @@ Gpio GENERATED_OUTPUTS[] = {
 	Gpio::E7, // E7 Fan 1
 	Gpio::E8, // E8 Fuel Pump
 	Gpio::E10, // E10 Tach Output
+	Gpio::B13, // B13 Ignition 1
+	Gpio::E9, // E9 Ignition 2
+	Gpio::A8, // A8 Ignition 3
+	Gpio::E4, // E4 Ignition 4
+	Gpio::D3, // D3 Ignition 5
+	Gpio::D11, // D11 Ignition 6
+	Gpio::D10, // D10 Ignition 7
+	Gpio::D8, // D8 Ignition 8
+	Gpio::D5, // D5 Going High output
+	Gpio::C9, // C9 Going Low output (low current)
+	Gpio::D7, // D7 Going low (VVT)
+	Gpio::C8, // C8 Going low (Idle 2)
+	Gpio::D6, // D6 Going low (Idle 1)
+	Gpio::D4, // D4 Going low (boost)
+	Gpio::E15, // E15 Stepper Enable
+	Gpio::E13, // E13 Stepper Direction
+	Gpio::B15, // B15 Stepper Step
 // "E6 Injector 1",
 // "E5 Injector 2",
 // "B9 Injector 3",
@@ -26,4 +43,21 @@ Gpio GENERATED_OUTPUTS[] = {
 // "E7 Fan 1",
 // "E8 Fuel Pump",
 // "E10 Tach Output",
+// "B13 Ignition 1",
+// "E9 Ignition 2",
+// "A8 Ignition 3",
+// "E4 Ignition 4",
+// "D3 Ignition 5",
+// "D11 Ignition 6",
+// "D10 Ignition 7",
+// "D8 Ignition 8",
+// "D5 Going High output",
+// "C9 Going Low output (low current)",
+// "D7 Going low (VVT)",
+// "C8 Going low (Idle 2)",
+// "D6 Going low (Idle 1)",
+// "D4 Going low (boost)",
+// "E15 Stepper Enable",
+// "E13 Stepper Direction",
+// "B15 Stepper Step",
 }
