@@ -1,8 +1,37 @@
 pins:
+
+  - id: E6
+    class: outputs
+    ts_name: E6 Injector 1
+    
+  - id: E5
+    class: outputs
+    ts_name: E5 Injector 2
+    
+  - id: B9
+    class: outputs
+    ts_name: B9 Injector 3
+    
+  - id: E3
+    class: outputs
+    ts_name: E3 Injector 4
+    
+  - id: D9
+    class: outputs
+    ts_name: D9 Injector 5
+    
   - id: B14
     class: outputs
-    ts_name: B14 Output
-
+    ts_name: B14 Injector 6
+    
+  - id: E14
+    class: outputs
+    ts_name: E14 Injector 7
+    
+  - id: C13
+    class: outputs
+    ts_name: C13 Injector 8
+    
   - id: EFI_ADC_0
     class: analog_inputs
 # getAdcChannelBrainPin in 'stm32_adc.cpp' says EFI_ADC_0 is PA0
