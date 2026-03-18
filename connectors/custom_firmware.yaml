@@ -31,6 +31,18 @@ pins:
   - id: C13
     class: outputs
     ts_name: C13 Injector 8
+
+  - id: E7
+    class: outputs
+    ts_name: E7 Fan 1
+    
+  - id: E8
+    class: outputs
+    ts_name: E8 Fuel Pump
+
+  - id: E10
+    class: outputs
+    ts_name: E10 Tach Output
     
   - id: EFI_ADC_0
     class: analog_inputs
