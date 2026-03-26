@@ -114,7 +114,7 @@ pins:
   - id: EFI_ADC_0
     class: analog_inputs
 # getAdcChannelBrainPin in 'stm32_adc.cpp' says EFI_ADC_0 is PA0
-    ts_name: On-board Battery Sense (A0)
+    ts_name: Analogue Inputs 0 (A0)
 
   - id: EFI_ADC_1
     class: analog_inputs
