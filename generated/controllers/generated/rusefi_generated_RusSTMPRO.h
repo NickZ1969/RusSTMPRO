@@ -58,8 +58,8 @@
 #define adc_channel_e_EFI_ADC_ERROR 50
 #define adc_channel_e_EFI_ADC_NONE 0
 #define adc_channel_e_EFI_ADC_TOTAL_CHANNELS 49
-#define adc_channel_e_enum 0="NONE",11="Analog Inputs 10 (C0)",13="Analog Inputs 12 (C2)",14="Analog Inputs 13 (C3)",4="Analog Inputs 3 (A3)",5="Analog Inputs 4 (A4)",6="Analog Inputs 5 (A5)",7="Analog Inputs 6 (A6)",8="Analog Inputs 7 (A7)",12="Baro (C1)",10="Battery (B1)",15="CLT (C4)",2="IAT (A1)",3="O2 (A2)",1="On-board Battery Sense (A0)",9="On-board MAP (B0)",16="TPS (C5)"
-#define adc_channel_e_fullenum "NONE","On-board Battery Sense (A0)","IAT (A1)","O2 (A2)","Analog Inputs 3 (A3)","Analog Inputs 4 (A4)","Analog Inputs 5 (A5)","Analog Inputs 6 (A6)","Analog Inputs 7 (A7)","On-board MAP (B0)","Battery (B1)","Analog Inputs 10 (C0)","Baro (C1)","Analog Inputs 12 (C2)","Analog Inputs 13 (C3)","CLT (C4)","TPS (C5)","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID"
+#define adc_channel_e_enum 0="NONE",11="Analog Inputs 10 (C0)",13="Analog Inputs 12 (C2)",14="Analog Inputs 13 (C3)",4="Analog Inputs 3 (A3)",5="Analog Inputs 4 (A4)",6="Analog Inputs 5 (A5)",7="Analog Inputs 6 (A6)",8="Analog Inputs 7 (A7)",1="Analogue Inputs 0 (A0)",12="Baro (C1)",10="Battery (B1)",15="CLT (C4)",2="IAT (A1)",3="O2 (A2)",9="On-board MAP (B0)",16="TPS (C5)"
+#define adc_channel_e_fullenum "NONE","Analogue Inputs 0 (A0)","IAT (A1)","O2 (A2)","Analog Inputs 3 (A3)","Analog Inputs 4 (A4)","Analog Inputs 5 (A5)","Analog Inputs 6 (A6)","Analog Inputs 7 (A7)","On-board MAP (B0)","Battery (B1)","Analog Inputs 10 (C0)","Baro (C1)","Analog Inputs 12 (C2)","Analog Inputs 13 (C3)","CLT (C4)","TPS (C5)","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID"
 #define ADC_CHANNEL_NONE 0
 #define afr_sensor_s_size 20
 #define air_pressure_sensor_config_s_size 12
@@ -1559,7 +1559,7 @@
 #define SentInput_NONE 0
 #define show_tcu_gauges false
 #define show_vvt_output_pin true
-#define SIGNATURE_HASH 2972123694
+#define SIGNATURE_HASH 3817523341
 #define SIMULATOR_TUNE_BIN_FILE_NAME "generated/simulator_tune_image.bin"
 #define SIMULATOR_TUNE_BIN_FILE_NAME_PREFIX "generated/simulator_tune_image"
 #define SIMULATOR_TUNE_BIN_FILE_NAME_SUFFIX ".bin"
@@ -2163,7 +2163,7 @@
 #define ts_show_wbo_canbus_index true
 #define ts_show_wbo_canbus_set_index true
 #define ts_show_wbo_canbus_set_type false
-#define TS_SIGNATURE "rusEFI main.2026.03.26.RusSTMPRO.2972123694"
+#define TS_SIGNATURE "rusEFI main.2026.03.26.RusSTMPRO.3817523341"
 #define TS_SIMULATE_CAN '>'
 #define TS_SIMULATE_CAN_char >
 #define TS_TEST_COMMAND 't'
