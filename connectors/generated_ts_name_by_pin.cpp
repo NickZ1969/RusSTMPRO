@@ -6,14 +6,72 @@
 // see comments at declaration in pin_repository.h
 const char* getBoardSpecificPinName(brain_pin_e brainPin) {
 	switch (brainPin) {
+		case Gpio::A5:
+			return "Cam input (A5)";
+		case Gpio::A8:
+			return "A8 Ignition 3";
+		case Gpio::B13:
+			return "B13 Ignition 1";
 		case Gpio::B14:
-			return "B14 Output";
-		case Gpio::E2:
-			return "VR/Hall 1 (E2)";
+			return "B14 Injector 6";
+		case Gpio::B15:
+			return "B15 Stepper Step";
+		case Gpio::B7:
+			return "Launch Control input (B7)";
+		case Gpio::B9:
+			return "B9 Injector 3";
+		case Gpio::C13:
+			return "C13 Injector 8";
+		case Gpio::C6:
+			return "Crank input (C6)";
+		case Gpio::C7:
+			return "VSS HALL input (C7)";
+		case Gpio::C8:
+			return "C8 Going low (Idle 2)";
+		case Gpio::C9:
+			return "C9 Going Low output (low current)";
+		case Gpio::D10:
+			return "D10 Ignition 7";
+		case Gpio::D11:
+			return "D11 Ignition 6";
+		case Gpio::D3:
+			return "D3 Ignition 5";
+		case Gpio::D4:
+			return "D4 Going low (boost)";
+		case Gpio::D5:
+			return "D5 Going High output";
+		case Gpio::D6:
+			return "D6 Going low (Idle 1)";
+		case Gpio::D7:
+			return "D7 Going low (VVT)";
+		case Gpio::D8:
+			return "D8 Ignition 8";
+		case Gpio::D9:
+			return "D9 Injector 5";
+		case Gpio::E10:
+			return "E10 Tach Output";
+		case Gpio::E12:
+			return "Flex fuel input (E12)";
+		case Gpio::E13:
+			return "E13 Stepper Direction";
+		case Gpio::E14:
+			return "E14 Injector 7";
+		case Gpio::E15:
+			return "E15 Stepper Enable";
 		case Gpio::E3:
-			return "VR/Hall 2 (E3)";
+			return "E3 Injector 4";
 		case Gpio::E4:
-			return "VR/Hall 3 (E4)";
+			return "E4 Ignition 4";
+		case Gpio::E5:
+			return "E5 Injector 2";
+		case Gpio::E6:
+			return "E6 Injector 1";
+		case Gpio::E7:
+			return "E7 Fan 1";
+		case Gpio::E8:
+			return "E8 Fuel Pump";
+		case Gpio::E9:
+			return "E9 Ignition 2";
 		default:
 			return nullptr;
 	}
