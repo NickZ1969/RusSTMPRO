@@ -7,7 +7,7 @@
 const char* getBoardSpecificPinName(brain_pin_e brainPin) {
 	switch (brainPin) {
 		case Gpio::A5:
-			return "Cam input (A5)";
+			return "Cam input (PA5)";
 		case Gpio::A8:
 			return "A8 Ignition 3";
 		case Gpio::B13:
@@ -17,15 +17,15 @@ const char* getBoardSpecificPinName(brain_pin_e brainPin) {
 		case Gpio::B15:
 			return "B15 Stepper Step";
 		case Gpio::B7:
-			return "Launch Control input (B7)";
+			return "Launch Control input (PB7)";
 		case Gpio::B9:
 			return "B9 Injector 3";
 		case Gpio::C13:
 			return "C13 Injector 8";
 		case Gpio::C6:
-			return "Crank input (C6)";
+			return "Crank input (PC6)";
 		case Gpio::C7:
-			return "VSS HALL input (C7)";
+			return "VSS HALL input (PC7)";
 		case Gpio::C8:
 			return "C8 Going low (Idle 2)";
 		case Gpio::C9:
