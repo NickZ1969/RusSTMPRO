@@ -95,7 +95,7 @@ pins:
     class: outputs
     ts_name: PB1 AC compressor 
 
-   - id: E10
+  - id: E10
     class: outputs
     ts_name: PE10 Power enable 
     
