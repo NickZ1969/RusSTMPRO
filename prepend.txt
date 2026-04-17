@@ -2,7 +2,6 @@
 #define IGN_TRIM_SIZE 8
 #define ts_show_etb_pins true
 #define MAX_TPS_PPS_DISCREPANCY 10
-#definets_show_vvt_frequency true
 #define ts_show_vvt_frequency true
 #define ts_show_dc_hardware
 #define ts_show_hbridge_function
