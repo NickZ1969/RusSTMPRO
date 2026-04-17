@@ -6,14 +6,64 @@
 // see comments at declaration in pin_repository.h
 const char* getBoardSpecificPinName(brain_pin_e brainPin) {
 	switch (brainPin) {
+		case Gpio::A8:
+			return "PA8 Injector 6";
+		case Gpio::A9:
+			return "PA9 Injector 2";
+		case Gpio::B1:
+			return "PB1 AC Pressure";
 		case Gpio::B14:
-			return "B14 Output";
+			return "PB14 ETB Disable";
+		case Gpio::B15:
+			return "PB15 Manifold Flap";
+		case Gpio::B8:
+			return "PB8 Ignition 6";
+		case Gpio::B9:
+			return "PB9 Engine relay";
+		case Gpio::C13:
+			return "PC13 Ignition 1";
+		case Gpio::C6:
+			return "PC6 Fuel Pump";
+		case Gpio::C7:
+			return "PC7 ETB Control";
+		case Gpio::C8:
+			return "PC8 ETB DIR";
+		case Gpio::C9:
+			return "PC9 A/C Relay";
+		case Gpio::D10:
+			return "PD10 Injector 4";
+		case Gpio::D11:
+			return "PD11 Injector 3";
+		case Gpio::D12:
+			return "PD12 VVT Intake Solenoid";
+		case Gpio::D13:
+			return "PD13 Fan 2";
+		case Gpio::D15:
+			return "PD15 VVT Exhaust Solenoid";
+		case Gpio::D2:
+			return "PD2 Injector 5";
+		case Gpio::D3:
+			return "PD3 Injector 1";
+		case Gpio::E1:
+			return "Crank input (PE1)";
+		case Gpio::E11:
+			return "Flex fuel input (PE11)";
+		case Gpio::E12:
+			return "Cam input Intake(PE12)";
+		case Gpio::E13:
+			return "Cam input Exhaust(PE13)";
+		case Gpio::E14:
+			return "VSS HALL input (PE14)";
 		case Gpio::E2:
-			return "VR/Hall 1 (E2)";
+			return "PE2 Ignition 5";
 		case Gpio::E3:
-			return "VR/Hall 2 (E3)";
+			return "PE3 Ignition 4";
 		case Gpio::E4:
-			return "VR/Hall 3 (E4)";
+			return "PE4 Ignition 3";
+		case Gpio::E5:
+			return "PE5 Ignition 2";
+		case Gpio::E6:
+			return "PE6 Fan 1";
 		default:
 			return nullptr;
 	}

@@ -4,6 +4,52 @@
 #pragma once
 
 Gpio GENERATED_OUTPUTS[] = {
-	Gpio::B14, // B14 Output
-// "B14 Output",
+	Gpio::D3, // PD3 Injector 1
+	Gpio::A9, // PA9 Injector 2
+	Gpio::D11, // PD11 Injector 3
+	Gpio::D10, // PD10 Injector 4
+	Gpio::D2, // PD2 Injector 5
+	Gpio::A8, // PA8 Injector 6
+	Gpio::E6, // PE6 Fan 1
+	Gpio::C6, // PC6 Fuel Pump
+	Gpio::C9, // PC9 A/C Relay
+	Gpio::C13, // PC13 Ignition 1
+	Gpio::E5, // PE5 Ignition 2
+	Gpio::E4, // PE4 Ignition 3
+	Gpio::E3, // PE3 Ignition 4
+	Gpio::E2, // PE2 Ignition 5
+	Gpio::B8, // PB8 Ignition 6
+	Gpio::C8, // PC8 ETB DIR
+	Gpio::C7, // PC7 ETB Control
+	Gpio::B14, // PB14 ETB Disable
+	Gpio::D12, // PD12 VVT Intake Solenoid
+	Gpio::D15, // PD15 VVT Exhaust Solenoid
+	Gpio::B15, // PB15 Manifold Flap
+	Gpio::D13, // PD13 Fan 2
+	Gpio::B9, // PB9 Engine relay
+	Gpio::B1, // PB1 AC Pressure
+// "PD3 Injector 1",
+// "PA9 Injector 2",
+// "PD11 Injector 3",
+// "PD10 Injector 4",
+// "PD2 Injector 5",
+// "PA8 Injector 6",
+// "PE6 Fan 1",
+// "PC6 Fuel Pump",
+// "PC9 A/C Relay",
+// "PC13 Ignition 1",
+// "PE5 Ignition 2",
+// "PE4 Ignition 3",
+// "PE3 Ignition 4",
+// "PE2 Ignition 5",
+// "PB8 Ignition 6",
+// "PC8 ETB DIR",
+// "PC7 ETB Control",
+// "PB14 ETB Disable",
+// "PD12 VVT Intake Solenoid",
+// "PD15 VVT Exhaust Solenoid",
+// "PB15 Manifold Flap",
+// "PD13 Fan 2",
+// "PB9 Engine relay",
+// "PB1 AC Pressure",
 }
