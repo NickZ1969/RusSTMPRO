@@ -93,7 +93,11 @@ pins:
 
   - id: B1
     class: outputs
-    ts_name: PB1 AC Pressure  
+    ts_name: PB1 AC compressor 
+
+   - id: E10
+    class: outputs
+    ts_name: PE10 Power enable 
     
   - id: EFI_ADC_0
     class: analog_inputs
@@ -118,7 +122,7 @@ pins:
 
   - id: EFI_ADC_5
     class: analog_inputs
-    ts_name: Analog Inputs 5 (PA5)
+    ts_name: Battery Voltage (PA5)
 
   - id: EFI_ADC_6
     class: analog_inputs
