@@ -11,7 +11,7 @@ const char* getBoardSpecificPinName(brain_pin_e brainPin) {
 		case Gpio::A9:
 			return "PA9 Injector 2";
 		case Gpio::B1:
-			return "PB1 AC Pressure";
+			return "PB1 AC compressor";
 		case Gpio::B14:
 			return "PB14 ETB Disable";
 		case Gpio::B15:
@@ -46,6 +46,8 @@ const char* getBoardSpecificPinName(brain_pin_e brainPin) {
 			return "PD3 Injector 1";
 		case Gpio::E1:
 			return "Crank input (PE1)";
+		case Gpio::E10:
+			return "PE10 Power enable";
 		case Gpio::E11:
 			return "Flex fuel input (PE11)";
 		case Gpio::E12:

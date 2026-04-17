@@ -27,7 +27,8 @@ Gpio GENERATED_OUTPUTS[] = {
 	Gpio::B15, // PB15 Manifold Flap
 	Gpio::D13, // PD13 Fan 2
 	Gpio::B9, // PB9 Engine relay
-	Gpio::B1, // PB1 AC Pressure
+	Gpio::B1, // PB1 AC compressor
+	Gpio::E10, // PE10 Power enable
 // "PD3 Injector 1",
 // "PA9 Injector 2",
 // "PD11 Injector 3",
@@ -51,5 +52,6 @@ Gpio GENERATED_OUTPUTS[] = {
 // "PB15 Manifold Flap",
 // "PD13 Fan 2",
 // "PB9 Engine relay",
-// "PB1 AC Pressure",
+// "PB1 AC compressor",
+// "PE10 Power enable",
 }
