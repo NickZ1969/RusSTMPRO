@@ -83,9 +83,9 @@ pins:
     class: outputs
     ts_name: PB15 Manifold Flap
 
-  - id: E6
+  - id: D13
     class: outputs
-    ts_name: PE6 Fan 2   
+    ts_name: PD13 Fan 2   
 
   - id: B9
     class: outputs
