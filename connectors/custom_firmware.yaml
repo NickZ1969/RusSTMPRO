@@ -160,10 +160,6 @@ pins:
     class: analog_inputs
     ts_name: Analog Inputs (PC5)
 
-  - id: [C6, C6]
-    class: [switch_inputs, event_inputs]
-    ts_name: Crank input (C6)
-
   - id: [E12, E12]
     class: [switch_inputs, event_inputs]
     ts_name: Cam input Intake(PE12)
