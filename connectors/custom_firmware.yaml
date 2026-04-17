@@ -98,6 +98,26 @@ pins:
   - id: E10
     class: outputs
     ts_name: PE10 Power enable 
+
+  - id: E11
+    class: outputs
+    ts_name: PE11 Power enable 5VA  
+
+  - id: E12
+    class: outputs
+    ts_name: PE11 Power enable 5VA
+
+  - id: E13
+    class: outputs
+    ts_name: PE13 Power enable 5VA 
+
+  - id: E14
+    class: outputs
+    ts_name: PE14 Power enable 5VA  
+
+  - id: E15
+    class: outputs
+    ts_name: PE15 Power enable 5VA   
     
   - id: EFI_ADC_0
     class: analog_inputs
