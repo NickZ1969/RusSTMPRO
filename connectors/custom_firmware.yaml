@@ -1,120 +1,120 @@
 pins:
   - id: E6
     class: outputs
-    ts_name: E6 Injector 1
+    ts_name: PE6 Injector 1
     
   - id: E5
     class: outputs
-    ts_name: E5 Injector 2
+    ts_name: PE5 Injector 2
     
   - id: B9
     class: outputs
-    ts_name: B9 Injector 3
+    ts_name: PB9 Injector 3
     
   - id: E3
     class: outputs
-    ts_name: E3 Injector 4
+    ts_name: PE3 Injector 4
     
   - id: D9
     class: outputs
-    ts_name: D9 Injector 5
+    ts_name: PD9 Injector 5
     
   - id: B14
     class: outputs
-    ts_name: B14 Injector 6
+    ts_name: PB14 Injector 6
     
   - id: E14
     class: outputs
-    ts_name: E14 Injector 7
+    ts_name: PE14 Injector 7
     
   - id: C13
     class: outputs
-    ts_name: C13 Injector 8
+    ts_name: PC13 Injector 8
 
   - id: E7
     class: outputs
-    ts_name: E7 Fan 1
+    ts_name: PE7 Fan 1
     
   - id: E8
     class: outputs
-    ts_name: E8 Fuel Pump
+    ts_name: PE8 Fuel Pump
 
   - id: E10
     class: outputs
-    ts_name: E10 Tach Output
+    ts_name: PE10 Tach Output
 
   - id: B13
     class: outputs
-    ts_name: B13 Ignition 1
+    ts_name: PB13 Ignition 1
     
   - id: E9
     class: outputs
-    ts_name: E9 Ignition 2
+    ts_name: PE9 Ignition 2
     
   - id: A8
     class: outputs
-    ts_name: A8 Ignition 3
+    ts_name: PA8 Ignition 3
     
   - id: E4
     class: outputs
-    ts_name: E4 Ignition 4
+    ts_name: PE4 Ignition 4
     
   - id: D3
     class: outputs
-    ts_name: D3 Ignition 5
+    ts_name: PD3 Ignition 5
     
   - id: D11
     class: outputs
-    ts_name: D11 Ignition 6
+    ts_name: PD11 Ignition 6
     
   - id: D10
     class: outputs
-    ts_name: D10 Ignition 7
+    ts_name: PD10 Ignition 7
     
   - id: D8
     class: outputs
-    ts_name: D8 Ignition 8
+    ts_name: PD8 Ignition 8
 
   - id: D5
     class: outputs
-    ts_name: D5 Going High output
+    ts_name: PD5 Going High output
 
   - id: C9
     class: outputs
-    ts_name: C9 Going Low output (low current)
+    ts_name: PC9 Going Low output (low current)
 
   - id: D7
     class: outputs
-    ts_name: D7 Going low (VVT)
+    ts_name: PD7 Going low (VVT)
 
   - id: C8
     class: outputs
-    ts_name: C8 Going low (Idle 2)
+    ts_name: PC8 Going low (Idle 2)
 
   - id: D6
     class: outputs
-    ts_name: D6 Going low (Idle 1)
+    ts_name: PD6 Going low (Idle 1)
 
   - id: D4
     class: outputs
-    ts_name: D4 Going low (boost)  
+    ts_name: PD4 Going low (boost)  
 
   - id: E15
     class: outputs
-    ts_name: E15 Stepper Enable
+    ts_name: PE15 Stepper Enable
 
   - id: E13
     class: outputs
-    ts_name: E13 Stepper Direction
+    ts_name: PE13 Stepper Direction
 
   - id: B15
     class: outputs
-    ts_name: B15 Stepper Step      
+    ts_name: PB15 Stepper Step      
     
   - id: EFI_ADC_0
     class: analog_inputs
 # getAdcChannelBrainPin in 'stm32_adc.cpp' says EFI_ADC_0 is PA0
-    ts_name: On-board Battery Sense (A0)
+    ts_name: analog_inputs (PA0)
 
   - id: EFI_ADC_1
     class: analog_inputs
@@ -186,7 +186,7 @@ pins:
 
   - id: [E12, E12]
     class: [switch_inputs, event_inputs]
-    ts_name: Flex fuel input (E12)  
+    ts_name: Flex fuel input (PE12)  
 
   - id: [B7, B7]
     class: [switch_inputs, event_inputs]
