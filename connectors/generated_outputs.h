@@ -4,60 +4,60 @@
 #pragma once
 
 Gpio GENERATED_OUTPUTS[] = {
-	Gpio::E6, // E6 Injector 1
-	Gpio::E5, // E5 Injector 2
-	Gpio::B9, // B9 Injector 3
-	Gpio::E3, // E3 Injector 4
-	Gpio::D9, // D9 Injector 5
-	Gpio::B14, // B14 Injector 6
-	Gpio::E14, // E14 Injector 7
-	Gpio::C13, // C13 Injector 8
-	Gpio::E7, // E7 Fan 1
-	Gpio::E8, // E8 Fuel Pump
-	Gpio::E10, // E10 Tach Output
-	Gpio::B13, // B13 Ignition 1
-	Gpio::E9, // E9 Ignition 2
-	Gpio::A8, // A8 Ignition 3
-	Gpio::E4, // E4 Ignition 4
-	Gpio::D3, // D3 Ignition 5
-	Gpio::D11, // D11 Ignition 6
-	Gpio::D10, // D10 Ignition 7
-	Gpio::D8, // D8 Ignition 8
-	Gpio::D5, // D5 Going High output
-	Gpio::C9, // C9 Going Low output (low current)
-	Gpio::D7, // D7 Going low (VVT)
-	Gpio::C8, // C8 Going low (Idle 2)
-	Gpio::D6, // D6 Going low (Idle 1)
-	Gpio::D4, // D4 Going low (boost)
-	Gpio::E15, // E15 Stepper Enable
-	Gpio::E13, // E13 Stepper Direction
-	Gpio::B15, // B15 Stepper Step
-// "E6 Injector 1",
-// "E5 Injector 2",
-// "B9 Injector 3",
-// "E3 Injector 4",
-// "D9 Injector 5",
-// "B14 Injector 6",
-// "E14 Injector 7",
-// "C13 Injector 8",
-// "E7 Fan 1",
-// "E8 Fuel Pump",
-// "E10 Tach Output",
-// "B13 Ignition 1",
-// "E9 Ignition 2",
-// "A8 Ignition 3",
-// "E4 Ignition 4",
-// "D3 Ignition 5",
-// "D11 Ignition 6",
-// "D10 Ignition 7",
-// "D8 Ignition 8",
-// "D5 Going High output",
-// "C9 Going Low output (low current)",
-// "D7 Going low (VVT)",
-// "C8 Going low (Idle 2)",
-// "D6 Going low (Idle 1)",
-// "D4 Going low (boost)",
-// "E15 Stepper Enable",
-// "E13 Stepper Direction",
-// "B15 Stepper Step",
+	Gpio::E6, // PE6 Injector 1
+	Gpio::E5, // PE5 Injector 2
+	Gpio::B9, // PB9 Injector 3
+	Gpio::E3, // PE3 Injector 4
+	Gpio::D9, // PD9 Injector 5
+	Gpio::B14, // PB14 Injector 6
+	Gpio::E14, // PE14 Injector 7
+	Gpio::C13, // PC13 Injector 8
+	Gpio::E7, // PE7 Fan 1
+	Gpio::E8, // PE8 Fuel Pump
+	Gpio::E10, // PE10 Tach Output
+	Gpio::B13, // PB13 Ignition 1
+	Gpio::E9, // PE9 Ignition 2
+	Gpio::A8, // PA8 Ignition 3
+	Gpio::E4, // PE4 Ignition 4
+	Gpio::D3, // PD3 Ignition 5
+	Gpio::D11, // PD11 Ignition 6
+	Gpio::D10, // PD10 Ignition 7
+	Gpio::D8, // PD8 Ignition 8
+	Gpio::D5, // PD5 Going High output
+	Gpio::C9, // PC9 Going Low output (low current)
+	Gpio::D7, // PD7 Going low (VVT)
+	Gpio::C8, // PC8 Going low (Idle 2)
+	Gpio::D6, // PD6 Going low (Idle 1)
+	Gpio::D4, // PD4 Going low (boost)
+	Gpio::E15, // PE15 Stepper Enable
+	Gpio::E13, // PE13 Stepper Direction
+	Gpio::B15, // PB15 Stepper Step
+// "PE6 Injector 1",
+// "PE5 Injector 2",
+// "PB9 Injector 3",
+// "PE3 Injector 4",
+// "PD9 Injector 5",
+// "PB14 Injector 6",
+// "PE14 Injector 7",
+// "PC13 Injector 8",
+// "PE7 Fan 1",
+// "PE8 Fuel Pump",
+// "PE10 Tach Output",
+// "PB13 Ignition 1",
+// "PE9 Ignition 2",
+// "PA8 Ignition 3",
+// "PE4 Ignition 4",
+// "PD3 Ignition 5",
+// "PD11 Ignition 6",
+// "PD10 Ignition 7",
+// "PD8 Ignition 8",
+// "PD5 Going High output",
+// "PC9 Going Low output (low current)",
+// "PD7 Going low (VVT)",
+// "PC8 Going low (Idle 2)",
+// "PD6 Going low (Idle 1)",
+// "PD4 Going low (boost)",
+// "PE15 Stepper Enable",
+// "PE13 Stepper Direction",
+// "PB15 Stepper Step",
 }
