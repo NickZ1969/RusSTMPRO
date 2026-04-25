@@ -73,11 +73,11 @@ pins:
 
   - id: D12
     class: outputs
-    ts_name: PD12 VVT Intake Solenoid
+    ts_name: PD12 VVT Exhaust Solenoid
 
   - id: D15
     class: outputs
-    ts_name: PD15 VVT Exhaust Solenoid
+    ts_name: PD15 VVT Inlet Solenoid
 
   - id: B15
     class: outputs
