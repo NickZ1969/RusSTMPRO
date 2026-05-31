@@ -39,6 +39,10 @@ pins:
     class: outputs
     ts_name: Fan output 
 
+  - id: C13
+    class: outputs
+    ts_name: Tach output 
+
   - id: D11
     class: outputs
     ts_name: Spare output (PD11) 
