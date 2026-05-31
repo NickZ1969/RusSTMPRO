@@ -7,7 +7,7 @@ pins:
     class: outputs
     ts_name: Coil 2
 
-   - id: A8
+  - id: A8
     class: outputs
     ts_name: Coil 3
 
@@ -39,7 +39,7 @@ pins:
     class: outputs
     ts_name: Fan output 
 
-   - id: D11
+  - id: D11
     class: outputs
     ts_name: Spare output (PD11) 
 
@@ -47,7 +47,7 @@ pins:
     class: outputs
     ts_name: Idle 1
 
-   - id: B12
+  - id: B12
     class: outputs
     ts_name: Idle 2
 
@@ -55,7 +55,7 @@ pins:
     class: outputs
     ts_name: Boost
 
-   - id: C6
+  - id: C6
     class: outputs
     ts_name: VVT 
     
