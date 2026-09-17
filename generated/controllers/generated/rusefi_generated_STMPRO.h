@@ -1645,7 +1645,7 @@
 #define SentInput_NONE 0
 #define show_tcu_gauges false
 #define show_vvt_output_pin true
-#define SIGNATURE_HASH 661588186
+#define SIGNATURE_HASH 2687599619
 #define SIMULATOR_TUNE_BIN_FILE_NAME "generated/simulator_tune_image.bin"
 #define SIMULATOR_TUNE_BIN_FILE_NAME_PREFIX "generated/simulator_tune_image"
 #define SIMULATOR_TUNE_BIN_FILE_NAME_SUFFIX ".bin"
@@ -2230,8 +2230,8 @@
 #define ts_show_spi1_pins false
 #define ts_show_spi2_enable false
 #define ts_show_spi2_pins false
-#define ts_show_spi3_enable false
-#define ts_show_spi3_pins false
+#define ts_show_spi3_enable true
+#define ts_show_spi3_pins true
 #define ts_show_spi4_enable false
 #define ts_show_spi4_pins false
 #define ts_show_spi5_enable false
@@ -2291,7 +2291,7 @@
 #define ts_show_wbo_canbus_index true
 #define ts_show_wbo_canbus_set_index true
 #define ts_show_wbo_canbus_set_type false
-#define TS_SIGNATURE "rusEFI main.2026.09.17.STMPRO.661588186"
+#define TS_SIGNATURE "rusEFI main.2026.09.17.STMPRO.2687599619"
 #define TS_SIMULATE_CAN '>'
 #define TS_SIMULATE_CAN_char >
 #define TS_TEST_COMMAND 't'
