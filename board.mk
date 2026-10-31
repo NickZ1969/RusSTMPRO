@@ -8,7 +8,8 @@ include $(BOARD_DIR)/meta-info.env
 
 # this would save some flash while being unable to update WBO controller firmware
 DDEFS += -DEFI_WIDEBAND_FIRMWARE_UPDATE=FALSE
-
+DDEFS += -DSTM32_SERIAL_USE_USART3=TRUE -DSTM32_SERIAL_USART3_PRIORITY=6
+DDEFS += -DTS_SECONDARY_UxART_PORT=SD3 -DEFI_TS_SECONDARY_IS_SERIAL=TRUE
 # assign critical LED to a non-existent pin if you do not have it on your board
 # good old PD14 is still the default value
 # DDEFS += -DLED_CRITICAL_ERROR_BRAIN_PIN=Gpio::I15
